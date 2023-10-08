@@ -1,0 +1,93 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.post .header {
+    display: flex;
+    justify-content: start;
+}
+
+
+.banner-container {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    max-width: 375px;
+    border-bottom:  1px solid #C6C6C6;
+    background-color: #fff; 
+}
+
+.profile-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 16px 17px;
+    gap: 183px;
+}
+
+.main-logo {
+    width: 127px;
+}
+
+.per-avatar {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.name, .location {
+    margin: 0;
+    padding: 5px 14px;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 375px;
+    padding: 11px;
+}
+
+.main-post {
+    margin-top: 15px;
+}
+
+#post-name, #post-place {
+    padding: 0;
+    margin: 5px;
+}
+
+.avatar {
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.name-div {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.main-post {
+    max-width: 375px;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    padding: 10px 0
+}
+
+.comment-wrapper {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+span, #post-name {
+    font-weight: 900;
+}
+
+.divider {
+    border-bottom:  25px solid #EDEDED;
+}
