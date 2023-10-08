@@ -1,4 +1,4 @@
-# Project Name
+# Oldagram
 
 Oldagram. A solo project, part of the Scrimba frontend career path
 
